@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>冬日登录页</title>
+    <link rel="stylesheet" href="./static/bootstrap-4.6.2-dist/css/bootstrap.min.css">
+    <script src="./static/jquery-3.7.1/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <a href="../home.html" class="btn btn-primary home-link" style="color:#217cde;">返回</a>
+    <div class="loginCard">
+        <div class="logo">
+            <img src="../pic/login_pic/logo.png" alt="" srcset="">
+        </div>
+        <form action="get_sigin.php" method="post">
+            <label for="">用户名:</label>
+            <input type="text" name="u_name" id="" placeholder="请输入您的用户名">
+            <br>
+            <label for="">密码:</label>
+            <input type="password" name="passwd" id="" placeholder="请输入您的密码">
+            <br>
+            <label for="">身份:</label>
+            <br>
+            <select name="identity" id="identity">
+                <option value="管理员">管理员</option>
+                <option value="教练">教练</option>
+                <option value="球员">球员</option>
+            </select>
+            <br>
+            <br>
+            <button type="submit">登录</button>
+        </form>
+    </div>
+    <script src="./static/proper/popper.min.js"></script>
+    <script src="./static/bootstrap-4.6.2-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

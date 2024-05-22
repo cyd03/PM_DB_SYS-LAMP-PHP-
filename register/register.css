@@ -1,0 +1,36 @@
+.loginCard{
+    width: fit-content;
+    border: 1px solid transparent;
+    padding: 40px 80px;
+    border-radius: 7px;
+    margin: 270px auto;
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 2px 2px 10px 1px rgb(206,206,206);
+}
+.loginCard .logo{
+    margin: 0 auto;
+    width: 85px;
+    height: 85px;
+    transform: translateY(-20px);
+    border:1px solid transparent;
+    box-shadow: 2px 2px 10px 1px rgb(206,206,206);
+}
+.loginCard .logo img{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 100%;
+}
+body{
+    background-image: url(../pic/login_pic/bg.jpg);
+    background-size: 100% 100vh;
+}
+button[type="submit"] {
+    display: block; /* 将按钮设置为块级元素 */
+    margin: 0 auto; /* 将按钮水平居中 */
+}
+input[type="text"],
+input[type="password"],
+button[type="submit"] {
+    width: 100%; /* 设置输入框和按钮宽度为父元素的100% */
+    box-sizing: border-box; /* 让输入框和按钮的宽度包含内边距和边框 */
+}

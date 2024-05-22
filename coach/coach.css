@@ -1,0 +1,45 @@
+.carousel-img{
+    width: 100%;
+    height: 640px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(../pic/HOME/background.jpg);
+    background-size: 100% 100vh;
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(22, 21, 21);
+}
+
+.logo img {
+    width: 50px; /* 确保图片尺寸符合实际显示尺寸 */
+    height: 50px;
+    margin-right: 20px;
+    image-rendering: -webkit-optimize-contrast; /* 对图像进行优化渲染 */
+    image-rendering: crisp-edges; /* 对图像进行优化渲染 */
+    /*image-rendering: pixelated; /* 对图像进行优化渲染 */
+}
+
+.title {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.nav {
+    margin-top: 10px;
+}
+.card-body
+{
+ background-color: black;
+}
+.card-text
+{
+    color: #7e7e83; /* 设置文字颜色，例如深灰色 */
+}

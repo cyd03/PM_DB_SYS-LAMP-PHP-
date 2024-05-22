@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>冬日登录页</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <a href="../home.html" class="btn btn-primary home-link" style="color:#217cde;">返回</a>
+    <div class="loginCard">
+        <div class="logo">
+            <img src="../pic/login_pic/logo.png" alt="" srcset="">
+        </div>
+        <form action="get_sigin.php" method="post">
+            <label for="">用户名:</label>
+            <input type="text" name="u_name" id="" placeholder="请输入您的用户名">
+            <br>
+            <label for="">密码:</label>
+            <input type="password" name="passwd" id="" placeholder="请输入您的密码">
+            <br>
+            <label for="">身份:</label>
+            <br>
+            <select name="identity" id="identity">
+                <option value="管理员">管理员</option>
+                <option value="教练">教练</option>
+                <option value="球员">球员</option>
+            </select>
+            <br>
+            <p style="color: red; size: 3px;">用户名或密码错误，请重新登录</p>
+            <button type="submit">登录</button>
+        </form>
+    </div>
+</body>
+
+</html>

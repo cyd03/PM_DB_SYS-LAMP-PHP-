@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>冬日注册页</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+    <a href="../home.html" class="btn btn-primary home-link" style="color:#217cde;">返回</a>
+    <div class="loginCard">
+        <div class="logo">
+            <img src="../pic/login_pic/logo.png" alt="" srcset="">
+        </div>
+        <form action="get_register.php" method="get" href="../home.html">
+            <label for="">用户名:</label>
+            <input type="text" name="u_name" id="" placeholder="请输入您的用户名">
+            <br>
+            <label for="">姓名:</label>
+            <input type="text" name="name" id="" placeholder="请输入您的姓名">
+            <br>
+            <label for="">密码:</label>
+            <input type="password" name="passwd" id="" placeholder="请输入您的密码">
+            <br>
+            <label for="">确认密码:</label>
+            <input type="password" name="repasswd" id="" placeholder="请确认您的密码">
+            <br>
+            <label for="">身份:</label>
+            <br>
+            <label for="admin">
+                <input type="radio" name="identity" id="admin" value="管理员">管理员
+            </label>
+            <label for="coach">
+                <input type="radio" name="identity" id="coach" value="教练">教练
+            </label>
+            <label for="player">
+                <input type="radio" name="identity" id="player" value="球员">球员
+            </label>
+            <br>
+            <p style="color: red; size: 3px;">用户名已被注册、密码输入不一致、输入为空，请重新注册</p>
+            <button type="submit">注册</button>
+        </form>
+    </div>
+</body>
+
+</html>

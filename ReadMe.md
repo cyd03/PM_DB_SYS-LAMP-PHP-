@@ -8,7 +8,7 @@ lamp、ubuntu 20.04
 2.运行mysql 创建用户root(我设置的密码031203cYd?) 尽量给root最大权限,然后创建数据库exp_4 具体自己修改;  
 3.提示：为避免root冲突，使用前记住删除已经创建的root（可能会导致后续连接不到数据库）;  
 4.可以将backup的第一个备份sql文件导入到数据库，获得原始数据;  
-5.然后虚拟机中http://localhost/exp_4/home.html即可访问页面,主机中请使用http://虚拟机的inet ip/exp_4/home.html即可  
+5.然后虚拟机中http://localhost/exp_4/home.html 即可访问页面,主机中请使用 http://虚拟机的inet ip/exp_4/home.html 即可  
 注：具体不懂，请看参考博客。  
 或联系作者2113346861@qq.com  
 对于想要实现数据库自动备份和恢复也请看部分指令说明。  
